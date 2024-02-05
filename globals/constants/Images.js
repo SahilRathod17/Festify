@@ -1,0 +1,43 @@
+export const IMAGES = {
+  LDRP: require('../../android/assets/images/LDRP.jpeg'),
+  Student: {
+    Login: require('../../android/assets/images/vectors/Student/Student_Login_Vector.png'),
+    Lock: require('../../android/assets/images/vectors/Student/S_Lock.png'),
+    Otp: require('../../android/assets/images/vectors/Student/S_Otp.png'),
+    announcements: {
+      Exams: require('../../android/assets/images/vectors/Student/Exams.png'),
+      Music: require('../../android/assets/images/vectors/Student/Music.png'),
+      Sport: require('../../android/assets/images/vectors/Student/Sports.png'),
+      Dance: require('../../android/assets/images/vectors/Student/Dance.png'),
+      Science: require('../../android/assets/images/vectors/Student/Science.png'),
+      Hackathon: require('../../android/assets/images/vectors/Student/Hackathon.png'),
+      Quiz: require('../../android/assets/images/vectors/Student/Quiz.png'),
+      Holiday: require('../../android/assets/images/vectors/Student/Holiday.png'),
+      Festival: require('../../android/assets/images/vectors/Student/Festival.png'),
+    },
+  },
+  Teacher: {
+    Login: require('../../android/assets/images/vectors/Teacher/Teacher_Login_Vector.png'),
+    Lock: require('../../android/assets/images/vectors/Teacher/T_Lock.png'),
+    Otp: require('../../android/assets/images/vectors/Teacher/T_Otp.png'),
+    announcements: {
+      Exams: require('../../android/assets/images/vectors/Teacher/Exams.png'),
+      Music: require('../../android/assets/images/vectors/Teacher/Music.png'),
+      Sport: require('../../android/assets/images/vectors/Teacher/Sports.png'),
+      Dance: require('../../android/assets/images/vectors/Teacher/Dance.png'),
+      Science: require('../../android/assets/images/vectors/Teacher/Science.png'),
+      Hackathon: require('../../android/assets/images/vectors/Teacher/Hackathon.png'),
+      Quiz: require('../../android/assets/images/vectors/Teacher/Quiz.png'),
+      Holiday: require('../../android/assets/images/vectors/Teacher/Holiday.png'),
+      Festival: require('../../android/assets/images/vectors/Teacher/Festival.png'),
+    },
+  },
+
+  event: require('../../android/assets/images/event.png'),
+  announcement: require('../../android/assets/images/announcement.png'),
+  emptyAnnouncement: require('../../android/assets/images/EmptyAnnouncemnet.png'),
+  locationPin: require('../../android/assets/images/location1.png'),
+  address: require('../../android/assets/images/address2.png'),
+  town: require('../../android/assets/images/town.png'),
+  homeState: require('../../android/assets/images/state.png'),
+};
